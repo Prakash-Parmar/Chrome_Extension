@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="front.css">
+
+    <title>simple portfolio site</title>
+
+</head>
+<body>
+
+    <div id="head-section">
+
+        <header>
+            <!-- logo -->
+            <img src="personal.webp" id="head-image" alt="personal image" title="owner image">
+            <!-- Nav bar -->
+            <ul>
+                <li>
+                    <a class="nav-link" href="#contact-section" target="_self" title="contact">Contact</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#news-section" target="_self" title="News">News</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#service-section" target="_self" title="Services">Services</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#about-section" target="_self" title="About" >About</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#signup-section" target="_self" title="Signup">Signup</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#login-section" target="_self" title="Login">Login</a>
+                </li>
+
+            </ul>
+        </header>
+    </div>
+    <!-- marquee -->
+    <marquee direction="left" width="100%" height="5%" style="background-color: bisque;">This is a simple portfolio site which lacks a lot of functionalities.</marquee>
+
+        <!-- about-section -->
+        <div id="about-section">
+
+            <div id="about-content">
+                <h1>About me,</h1>
+
+                <div class="clearfix">
+                    <img id="imgInAbout" src="personal_full.webp" alt="owner pic" title="owner">
+                    Hi &#128075; <br>
+                    I am <strong>Prakash Parmar</strong> , a student of Indian Institute of Technology, Guwahati.<br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut consectetur eos eaque. Facere ea ipsa eveniet, iusto reiciendis corporis! Numquam sed maiores minus delectus dolorem alias facilis quos eaque?
+                    </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut consectetur eos eaque. Facere ea ipsa eveniet, iusto reiciendis corporis! Numquam sed maiores minus delectus dolorem alias facilis quos eaque?
+                    </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut consectetur eos eaque. Facere ea ipsa eveniet, iusto reiciendis corporis! Numquam sed maiores minus delectus dolorem alias facilis quos eaque?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut consectetur eos eaque. Facere ea ipsa eveniet, iusto reiciendis corporis! Numquam sed maiores minus delectus dolorem alias facilis quos eaque?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut consectetur eos eaque. Facere ea ipsa eveniet, iusto reiciendis corporis! Numquam sed maiores minus delectus dolorem alias facilis quos eaque?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut consectetur eos eaque. Facere ea ipsa eveniet, iusto reiciendis corporis! Numquam sed maiores minus delectus dolorem alias facilis quos eaque?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut consectetur eos eaque. Facere ea ipsa eveniet, iusto reiciendis corporis! Numquam sed maiores minus delectus dolorem alias facilis quos eaque?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut consectetur eos eaque. Facere ea ipsa eveniet, iusto reiciendis corporis! Numquam sed maiores minus delectus dolorem alias facilis quos eaque?
+                    </p>
+                </div>
+            </div>
+
+            </div>
+        <!-- service-section -->
+        <div id="service-section">
+
+            <div id="service-content">
+                <h1>Our services....</h1>
+                <div class="clearfix">
+
+                        <div class="column">
+                            <div class="service-sub-content">
+                                <img class="service-logo" src="learn.png" alt="learn logo" title="education for everyone">
+
+                                <h3>Public Education</h3>
+                                <p>We provide opportunity to meritorious ones , who can't afford essential facilities to get good education.</p>
+                                <button type="button" class="button" title="learn more">Learn more</button>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="service-sub-content">
+                                <img class="service-logo" src="community.png" alt="community logo" title="communal harmony">
+
+                                <h3>Public Funding</h3>
+                                <p>We help needed people by raising funds for them via online. If you are in problem and unable to collect sufiicient,Contact Us undoubtebly...</p>
+                                <button type="button" class="button" title="learn more">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="service-sub-content">
+                                <img class="service-logo" src="food.png" alt="food logo" title="food for everyone">
+
+                                <h3>Food Bank</h3>
+                                <p>We collect food items from different sections of the society for the poor ones.A humble request to everyone, Don't waste food.</p>
+                                <button type="button" class="button" title="learn more">Learn more</button>
+                            </div>
+                        </div>
+
+            </div>
+            </div>
+
+        </div>
+        <!-- contact-section -->
+        <div id="contact-section">
+            <div id="contact-content">
+                <h1>Get in touch with us</h1>
+                <div class="form">
+                    <div class="form-inside">
+                        <form action="#" method="GET">
+                            <h2>Write to us &#9997;</h2>
+                            <small>Leave a message for us to improve our services.
+                            Also tell us about yourself something to get familiar with us ...
+                            </small>
+                            <label for="fname">First name:<b>*</b></label>
+                            <input type="text" name="fname" id="fname" placeholder="Enter first name" required autocomplete="on">
+
+                            <label for="lname">Last name:<b>*</b></label>
+                            <input type="text" name="lname" id="lname" placeholder="Enter last name" required autocomplete="on">
+
+                            <label for="email">Email:<b>*</b></label>
+                            <input type="email" name="email" id="email" placeholder="example@abc.com" required autocomplete="on">
+
+                            <label for="message">Message:<b>*</b></label>
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message" required autocomplete="on"></textarea>
+
+                            <label for="details">Additional details:</label>
+                            <textarea name="additional" id="details" cols="30" rows="5" placeholder="Enter additional something"  autocomplete="on"></textarea>
+
+                            <input class="button" type="submit" value="Send message">
+                        </form>
+                        <small><b>*</b> marked are compulsory to fill</small>
+                    </div>
+                </div>
+                <!-- footer -->
+                <hr>
+                    <small>&#169;2021,Saurabh Kumar</small>
+                    <small id="back"> <a href="#" target="_self">Back to top</a> </small>
+            </div>
+
+        </div>
+
+        <div class="follow-section">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/chan.ge3211/" target="_blank"><img src="insta.png" alt="insta-id">
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="https://twitter.com/SKRaj92325677" target="_blank"><img src="twitter.png" alt="tweet-id">
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="https://www.facebook.com/saurabh.raj.35762" target="_blank">
+                        <img src="fb.png" alt="fb-id">
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="mailto:saurabh2002@iitg.ac.in" target="_blank">
+                        <img src="email.png" alt="email-id">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+<script src="front.js"></script>
+</body>
+</html>

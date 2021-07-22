@@ -1,0 +1,185 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div#head-section {
+    position: sticky;
+    top: 0;
+    background-color: rgb(13, 3, 78);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header #head-image {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    float: right;   
+}
+
+header li a.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 18px 11px;
+    padding-top: 23px;
+    font-size: 13px;
+}
+
+a.nav-link:visited {
+    background-color: rgb(255, 102, 0);
+}
+a.nav-link:hover, a.nav-link:active {
+    background-color:rgb(255, 0, 0);
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* Button  */
+.button {
+    background-color: #00f;
+    color: #fff;
+    padding:10px 15px ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* About section */
+marquee {
+    position: sticky;
+    top: 60px;
+}
+#about-content {
+    font-family: Georgia, serif;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+}
+#about-content p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: justify;
+}
+#imgInAbout {
+    float: right;
+    margin: 0px 0px 5px 15px;
+    border-radius: 10px;
+}
+.clearfix {
+    overflow: auto;
+}
+
+/* Service section */
+
+#service-content {
+    font-family: Georgia, serif;
+    padding: 25px;
+    background-color: rgb(214, 214, 214);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding:15px 35px ;
+}
+@media screen and (max-width: 500px) {
+    .column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }    
+}
+.service-sub-content {
+    background-color: #fff;
+    box-shadow: 5px 10px 8px 10px #888;
+    border-radius: 20px;
+    padding:16px ;
+    height: 490px;
+    font-size: 15px;
+}
+
+.service-logo {
+    width: 100%;
+}
+
+/* Contact section */
+#contact-content {
+    font-family: Georgia, serif;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+}
+#contact-content h1 {
+    text-align: center;
+}
+.form{
+    margin: auto;
+    max-width:60% ;
+    padding: 60px;
+}
+.form-inside {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 5px 15px 5px rgb(199, 199, 199);
+    margin: auto;
+    padding: 10px;
+    max-width:80% ;
+    border-radius: 10px;
+}
+.form label {
+    display: block;
+    padding: 10px 0 5px 0;
+    font-size: 15px;
+}
+.form label b{
+    color: red;
+}
+small {
+    font-size: 11px;
+    font-style: italic;
+}
+.form input , .form textarea{
+    padding: 5px;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+/* follow section */
+.follow-section {
+    position: fixed;
+    top: 230px;
+    width: 50px;
+    background-color: rgb(208, 255, 250);
+    opacity: 0.9;
+    border-radius: 40px;
+}
+.follow-section ul {
+    list-style-type:none ;
+    padding: 5px;
+
+}
+.follow-section ul li {
+    padding: 2px;
+}
+
+#back {
+    float: right;
+}
+#back a {
+    text-decoration: none;
+    color: #000;
+}
